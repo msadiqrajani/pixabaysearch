@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./Components/Navbar";
 import Search from "./Components/Search";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <NavBar />
         <Search />
       </div>
+      <Footer />
     </MuiThemeProvider>
   );
 }

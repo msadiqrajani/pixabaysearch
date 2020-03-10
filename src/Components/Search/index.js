@@ -8,7 +8,7 @@ const API_KEY = "15525910-2e01ee8fa19510838e74c4763";
 
 const Search = () => {
   const [formFields, setFormFields] = useState({
-    searchText: "banana",
+    searchText: "",
     amount: 5
   });
 
